@@ -6,9 +6,18 @@
     android:gravity="center"
     android:orientation="vertical">
 
-    <TextView
-      android:textColor="@color/public_black"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="首页" />
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:id="@+id/homeFragmentSrl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/homeFragmentRv"
+            class="android.support.v7.app.AlertController$RecycleListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v7.widget.RecyclerView>
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
 </LinearLayout>

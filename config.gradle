@@ -42,7 +42,10 @@ ext {
             "glide-loader-okhttp3"     : "com.github.bumptech.glide:okhttp3-integration:${version["glideSdkVersion"]}",
             "picasso"                  : "com.squareup.picasso:picasso:2.5.2",
 
-            //view
+            /**
+             * view
+             * **/
+
             "autolayout"               : "com.zhy:autolayout:1.4.5",
             "butterknife"              : "com.jakewharton:butterknife:${version["butterknifeSdkVersion"]}",
             "butterknife-compiler"     : "com.jakewharton:butterknife-compiler:${version["butterknifeSdkVersion"]}",
@@ -54,6 +57,13 @@ ext {
             "vlayout"                  : "com.alibaba.android:vlayout:1.1.0@aar",
             "lottie"                   : "com.airbnb.android:lottie:2.7.0",
             "autosize"                 : "me.jessyan:autosize:1.1.1",
+            //刷新:https://github.com/scwang90/SmartRefreshLayout
+            "smartRefreshHeader"       : "com.scwang.smartrefresh:SmartRefreshLayout:1.1.0",
+            //https://github.com/CymChad/BaseRecyclerViewAdapterHelper/blob/master/README-cn.md
+            "bseRecyclerViewAdapterHelper"       : "com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.50",
+
+
+
 
             //rx1
             "rxandroid"                : "io.reactivex:rxandroid:1.2.1",
