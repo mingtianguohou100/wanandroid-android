@@ -13,7 +13,7 @@
     <application
         android:name="com.jess.arms.base.BaseApplication"
         android:allowBackup="true"
-        android:icon="@mipmap/arms_component_logo"
+        android:icon="@drawable/haocai"
         android:label="@string/public_app_name"
         android:networkSecurityConfig="@xml/public_network_security_config"
         android:supportsRtl="true"
@@ -47,7 +47,9 @@
         <meta-data
             android:name="com.wanandroid.wanandroid_android.app.GlobalConfiguration"
             android:value="ConfigModule"/>
-
+        <meta-data
+            android:name="me.jessyan.armscomponent.commonres.GlobalConfiguration"
+            android:value="ConfigModule"/>
     </application>
 
 </manifest>

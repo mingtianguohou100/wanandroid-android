@@ -6,10 +6,26 @@
     android:gravity="center"
     android:orientation="vertical">
 
-    <TextView
+    <Button
+        android:id="@+id/btnCheckUpd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="我的" />
+        android:padding="10dp"
+        android:text="检查更新" />
+
+    <Button
+        android:id="@+id/btnInternationalization"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="国际化" />
+
+    <Button
+        android:id="@+id/btnTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="换肤" />
 
 
 </LinearLayout>

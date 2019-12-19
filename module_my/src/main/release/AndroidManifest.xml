@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.wanandroid.module_my">
+    <application>
+
+        <meta-data
+            android:name="com.wanandroid.wanandroid_android.app.GlobalConfiguration"
+            android:value="ConfigModule"/>
+        <meta-data
+            android:name="me.jessyan.armscomponent.commonres.GlobalConfiguration"
+            android:value="ConfigModule"/>
+    </application>
 
 </manifest>

@@ -34,4 +34,13 @@ dependencies {
     api rootProject.ext.dependencies["lottie"]
     api rootProject.ext.dependencies["smartRefreshHeader"]
     api rootProject.ext.dependencies["bseRecyclerViewAdapterHelper"]
+
+    api rootProject.ext.dependencies["Luban"]
+    api rootProject.ext.dependencies["androidPickerView"]
+    api rootProject.ext.dependencies["checkVersionLib"]
+    api rootProject.ext.dependencies["androidUtilCode"]
+//    api rootProject.ext.dependencies["rxKit"]
+//    api rootProject.ext.dependencies["rxUI"]
+//    api rootProject.ext.dependencies["RxCamera"]
+//    api rootProject.ext.dependencies["RxFeature"]
 }

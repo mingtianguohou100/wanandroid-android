@@ -1,13 +1,10 @@
 package com.wanandroid.wanandroid_android.mvp.ui.activity;
-
-
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.widget.RadioGroup;
-
 import com.alibaba.android.arouter.facade.annotation.Route;
 import com.alibaba.android.arouter.launcher.ARouter;
 import com.jess.arms.base.BaseActivity;
@@ -19,11 +16,8 @@ import com.wanandroid.wanandroid_android.R;
 import com.wanandroid.wanandroid_android.di.component.DaggerMainComponent;
 import com.wanandroid.wanandroid_android.mvp.contract.MainContract;
 import com.wanandroid.wanandroid_android.mvp.presenter.MainPresenter;
-
 import java.util.List;
-
 import javax.inject.Inject;
-
 import butterknife.BindView;
 import me.jessyan.armscomponent.commonsdk.core.RouterHub;
 
@@ -115,6 +109,8 @@ public class MainActivity extends BaseActivity<MainPresenter> implements MainCon
 
     @Override
     public void onBackPressed() {
+//        RxDialog rxd=new RxDialog(this);
+//        rxd.show();
         //获取第一次按键时间
         long mNowTime = System.currentTimeMillis();
         //比较两次按键时间差

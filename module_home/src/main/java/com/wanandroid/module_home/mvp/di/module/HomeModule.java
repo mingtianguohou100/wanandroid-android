@@ -7,7 +7,10 @@ import android.widget.LinearLayout;
 
 import com.alibaba.android.arouter.launcher.ARouter;
 import com.jess.arms.base.DefaultAdapter;
+import com.jess.arms.di.component.AppComponent;
 import com.jess.arms.di.scope.ActivityScope;
+import com.jess.arms.http.imageloader.ImageLoader;
+import com.jess.arms.utils.ArmsUtils;
 import com.wanandroid.module_home.mvp.contract.HomeContract;
 import com.wanandroid.module_home.mvp.model.HomeModel;
 import com.wanandroid.module_home.mvp.model.entity.HomeBean;
@@ -37,9 +40,11 @@ public abstract class HomeModule {
         return new ArrayList();
     }
 
+
+
     @ActivityScope
     @Provides
-    static HomeListAdapter provideGoldHomeAdapter(List<HomeBean.DatasBean> data) {
-        return new HomeListAdapter(data);
+    static HomeListAdapter provideGoldHomeAdapter(HomeContract.View view,List<HomeBean.DatasBean> data) {
+        return new HomeListAdapter(view,data);
     }
 }

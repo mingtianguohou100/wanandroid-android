@@ -30,7 +30,9 @@ ext {
             "annotations"              : "com.android.support:support-annotations:${version["androidSupportSdkVersion"]}",
             "recyclerview-v7"          : "com.android.support:recyclerview-v7:${version["androidSupportSdkVersion"]}",
 
-            //network
+            /**
+             * network
+             * **/
             "retrofit"                 : "com.squareup.retrofit2:retrofit:${version["retrofitSdkVersion"]}",
             "retrofit-converter-gson"  : "com.squareup.retrofit2:converter-gson:${version["retrofitSdkVersion"]}",
             "retrofit-adapter-rxjava"  : "com.squareup.retrofit2:adapter-rxjava:${version["retrofitSdkVersion"]}",
@@ -42,10 +44,10 @@ ext {
             "glide-loader-okhttp3"     : "com.github.bumptech.glide:okhttp3-integration:${version["glideSdkVersion"]}",
             "picasso"                  : "com.squareup.picasso:picasso:2.5.2",
 
+
             /**
              * view
              * **/
-
             "autolayout"               : "com.zhy:autolayout:1.4.5",
             "butterknife"              : "com.jakewharton:butterknife:${version["butterknifeSdkVersion"]}",
             "butterknife-compiler"     : "com.jakewharton:butterknife-compiler:${version["butterknifeSdkVersion"]}",
@@ -57,11 +59,6 @@ ext {
             "vlayout"                  : "com.alibaba.android:vlayout:1.1.0@aar",
             "lottie"                   : "com.airbnb.android:lottie:2.7.0",
             "autosize"                 : "me.jessyan:autosize:1.1.1",
-            //刷新:https://github.com/scwang90/SmartRefreshLayout
-            "smartRefreshHeader"       : "com.scwang.smartrefresh:SmartRefreshLayout:1.1.0",
-            //https://github.com/CymChad/BaseRecyclerViewAdapterHelper/blob/master/README-cn.md
-            "bseRecyclerViewAdapterHelper"       : "com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.50",
-
 
 
 
@@ -116,6 +113,29 @@ ext {
             "logger"                   : "com.orhanobut:logger:2.2.0",
             "canary-debug"             : "com.squareup.leakcanary:leakcanary-android:${version["canarySdkVersion"]}",
             "canary-release"           : "com.squareup.leakcanary:leakcanary-android-no-op:${version["canarySdkVersion"]}",
-            "umeng-analytics"          : "com.umeng.analytics:analytics:6.0.1"
+            "umeng-analytics"          : "com.umeng.analytics:analytics:6.0.1",
+
+
+
+            /**
+             * 新添加
+             * **/
+//            //热修复:https://github.com/Tencent/tinker
+//            "tinker"                   : "",
+            //鲁班:https://github.com/Curzibn/Luban
+            "Luban"                    : "top.zibin:Luban:1.1.8",
+            //刷新:https://github.com/scwang90/SmartRefreshLayout
+            "smartRefreshHeader"       : "com.scwang.smartrefresh:SmartRefreshLayout:1.1.0",
+            //adapter https://github.com/CymChad/BaseRecyclerViewAdapterHelper/blob/master/README-cn.md
+            "bseRecyclerViewAdapterHelper"       : "com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.50",
+            //选择器：https://github.com/Bigkoo/Android-PickerView
+            "androidPickerView"         : "com.contrarywind:Android-PickerView:4.1.9",
+            //升级:https://github.com/AlexLiuSheng/CheckVersionLib/blob/master/README_UN.MD
+            "checkVersionLib"           : "com.github.AlexLiuSheng:CheckVersionLib:2.3.3.1_appcompat",
+            //tool：https://github.com/Blankj/AndroidUtilCode/blob/master/lib/utilcode/README-CN.md
+            "androidUtilCode"             : "com.blankj:utilcode:1.26.0",
+
+
+
     ]
 }

@@ -2,4 +2,15 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.wanandroid.module_home">
 
+
+    <application>
+
+        <meta-data
+            android:name="com.wanandroid.wanandroid_android.app.GlobalConfiguration"
+            android:value="ConfigModule"/>
+        <meta-data
+            android:name="me.jessyan.armscomponent.commonres.GlobalConfiguration"
+            android:value="ConfigModule"/>
+    </application>
+
 </manifest>
